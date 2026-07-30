@@ -1,0 +1,193 @@
+body {
+  background-color: #121212;
+  color: #eaeaea;
+  font-family: "Alexandria" !important;
+  font-weight: 300;
+  margin: 0;
+  padding: 20px;
+}
+.container {
+  max-width: 900px;
+  margin: auto;
+  background: #1e1e1e;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.5);
+}
+
+h1 {
+  text-align: center;
+  color: #00bcd4;
+}
+
+.question {
+  margin-bottom: 25px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #333;
+}
+
+.question img {
+  max-width: 100%;
+  display: block;
+  margin: 10px auto;
+  border-radius: 6px;
+  cursor: zoom-in;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.option {
+  background-color: #2b2b2b;
+  padding: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.option input[type="radio"] {
+  transform: scale(1.1);
+  margin-right: 8px;
+}
+
+.option:hover {
+  background-color: #3a3a3a;
+}
+
+.option.correct {
+  background-color: #1b5e20 !important;
+}
+
+.option.wrong {
+  background-color: #b71c1c !important;
+}
+
+#submit-btn {
+  background-color: #00bcd4;
+  color: #fff;
+  font-size: 18px;
+  font-family: inherit;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  display: block;
+  margin: 30px auto;
+  transition: background 0.3s;
+}
+
+#submit-btn:hover {
+  background-color: #0097a7;
+}
+
+#result {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 20px;
+  color: #00e676;
+}
+
+/* --- Modal immagine --- */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 10;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.8);
+}
+
+.modal-content {
+  margin: auto;
+  display: block;
+  max-width: 90%;
+  max-height: 90%;
+  border-radius: 8px;
+  animation: zoom 0.3s;
+}
+
+@keyframes zoom {
+  from { transform: scale(0.8); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}
+
+.close {
+  position: absolute;
+  top: 20px;
+  right: 40px;
+  color: #fff;
+  font-size: 35px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* --- Stile blocchi <code> personalizzati --- */
+/* --- Stile blocchi <code> con sfondo chiaro e testo nero --- */
+/* --- Stile blocchi <code> centrati e adattabili --- */
+.question code,
+.option-text code {
+  display: block;
+  width: fit-content;
+  min-width: 40%;        /* blocchi corti diventano un po’ più larghi */
+  max-width: 90%;        /* non oltrepassa il container */
+  margin: 12px auto;
+  padding: 12px 15px;
+  color: #000;
+  border-radius: 8px;
+  font-family: "JetBrains Mono", monospace !important;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: left;
+  white-space: pre-wrap;
+  line-height: 1.4;
+  overflow-x: auto;
+  tab-size: 2;
+  -moz-tab-size: 2;
+}
+
+/* inline code */
+p code {
+  display: inline-block;
+  max-width: 100%;
+  padding: 2px 6px;
+  color: #000;
+  border-radius: 4px;
+  font-family: "JetBrains Mono", monospace !important;
+  font-weight: bold;
+  tab-size: 2;
+  -moz-tab-size: 2;
+}
+
+code
+{
+  background-color: #d9d9d9 !important;
+}
+
+/* spazii bianchi */
+blank {
+  display: inline-block;
+  background: white !important;
+  height: 1em;
+  vertical-align: middle;
+}
+
+/* ===========================
+   Rendering ottimizzato quiz
+   =========================== */
+
+#quiz-container {
+  visibility: hidden;
+}
+
+#quiz-container.quiz-ready {
+  visibility: visible;
+}
+

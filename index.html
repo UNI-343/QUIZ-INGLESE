@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>QUIZ INGLESE</title>
+  <!-- Alexandria locale -->
+  <link href="fonts/Alexandria/Alexandria-VariableFont_wght.css" rel="stylesheet">
+  
+  <!-- JetBrains Mono locale -->
+  <link href="fonts/JetBrainsMono@2.304/JetBrainsMono.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">			
+
+	<!-- Evita il flash del font di sistema -->
+	<style>
+	  html.fonts-pending body {
+		visibility: hidden;
+	  }
+	</style>
+
+	<script>
+	(function () {
+	  document.documentElement.classList.add("fonts-pending");
+
+	  function reveal() {
+		document.documentElement.classList.remove("fonts-pending");
+	  }
+
+	  // Rete di sicurezza
+	  const safety = setTimeout(reveal, 2000);
+
+	  if (document.fonts && document.fonts.load) {
+		Promise.all([
+		  document.fonts.load('400 16px "Alexandria"'),
+		  document.fonts.load('700 16px "Alexandria"'),
+		  document.fonts.load('400 16px "JetBrains Mono"')
+		])
+		.then(() => {
+		  clearTimeout(safety);
+		  reveal();
+		})
+		.catch(() => {
+		  clearTimeout(safety);
+		  reveal();
+		});
+	  } else {
+		clearTimeout(safety);
+		reveal();
+	  }
+	})();
+	</script>
+
+  <!-- KaTeX locale -->
+  <link rel="stylesheet" href="libs/katex@0.16.25/katex.min.css">
+  <link rel="stylesheet" href="libs/katex@0.16.25/katex-swap.min.css">
+  <script defer src="libs/katex@0.16.25/katex.min.js"></script>
+  <script defer src="libs/katex@0.16.25/contrib/auto-render.min.js"
+          onload="renderMathInElement(document.body, {delimiters: [{left: '$$', right: '$$', display: true}, {left: '$', right: '$', display: false}]});"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Idoneità alla lingua Inglese</h1>
+    <div id="quiz-container"></div>
+
+    <button id="submit-btn">Consegna compito</button>
+    <div id="result"></div>
+  </div>
+
+  <!-- Modal per ingrandire immagini -->
+  <div id="image-modal" class="modal">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="modal-img" alt="immagine ingrandita">
+  </div>
+
+  <script src="data/questions1.js"></script>
+  <script src="data/questions2.js"></script>
+  <script src="data/questions3.js"></script>
+  <script src="data/questions4.js"></script>
+  <script src="data/questions5.js"></script>
+  <script src="data/questions6.js"></script>
+  <script src="data/questions7.js"></script>
+  <script src="data/questions8.js"></script>
+  <script src="data/questions9.js"></script>
+  <script src="data/questions10.js"></script>
+  <script src="data/questions11.js"></script>
+
+
+  <script src="data/questions.js"></script>
+  <script src="script.js"></script>
+
+</body>
+</html>
