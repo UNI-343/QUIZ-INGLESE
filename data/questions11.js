@@ -298,5 +298,55 @@ window.allQuestions11 = [
       "phrasal verbs"
     ],
     "corretta": 1
+  },
+{
+    "domanda": "Complete the sentence with the correct verb form: My brother never ______ his room on weekends.",
+    "opzioni": [
+      "tidied",
+      "tidies",
+      "tidying",
+      "tidy"
+    ],
+    "corretta": 1
+  },
+  {
+    "domanda": "Choose the sentence with correct subject-verb agreement and adverb placement:",
+    "opzioni": [
+      "They usually go to the gym after work",
+      "Usually they go to the gym after work",
+      "They go usually to the gym after work",
+      "They go to the gym after work usually"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "Choose the sentence that is grammatically and syntactically correct:",
+    "opzioni": [
+      "He doesn’t speaks Spanish very well",
+      "He not speak Spanish very well",
+      "He doesn’t speak Spanish very well",
+      "He don’t speak Spanish very well"
+    ],
+    "corretta": 2
+  },
+  {
+    "domanda": "Identify the grammatically correct affirmative sentence:",
+    "opzioni": [
+      "The children playing in the park every afternoon",
+      "The children plays in the park every afternoon",
+      "The children play in the park every afternoon",
+      "The children doesn’t play in the park every afternoon"
+    ],
+    "corretta": 2
+  },
+  {
+    "domanda": "Complete the sentence with the correct verb form: The new café near the station ______ excellent coffee.",
+    "opzioni": [
+      "serves",
+      "serve",
+      "serving",
+      "served"
+    ],
+    "corretta": 0
   }
 ];
