@@ -348,5 +348,55 @@ window.allQuestions11 = [
       "served"
     ],
     "corretta": 0
+  },
+{
+    "domanda": "Choose the sentence that describes a habit:",
+    "opzioni": [
+      "She is cooking pasta for dinner",
+      "I have been living here since 2010",
+      "He reads the newspaper with his coffee every day",
+      "They are discussing the proposal at the meeting"
+    ],
+    "corretta": 2
+  },
+  {
+    "domanda": "Choose the correct sentence indicating a current action:",
+    "opzioni": [
+      "We are preparing the presentation right now",
+      "They visit their grandparents every summer",
+      "She walks to work every day",
+      "He wrote a novel last year"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "Complete the sentence: “Be quiet! The baby ____ in the next room.”",
+    "opzioni": [
+      "has been sleeping",
+      "is sleeping",
+      "sleeps",
+      "sleep"
+    ],
+    "corretta": 1
+  },
+  {
+    "domanda": "Complete the sentences: Tom ____ on a new marketing campaign this week. However, he usually ____ a break on weekends.",
+    "opzioni": [
+      "is working / takes",
+      "works / is taking",
+      "works / takes",
+      "is working / is taking"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "Complete the sentence: “She normally _____ action movies, but this week she _____ a romantic comedy”.",
+    "opzioni": [
+      "watches / watches",
+      "is watching / watches",
+      "is watching / is watching",
+      "watches / is watching"
+    ],
+    "corretta": 3
   }
 ];
