@@ -398,5 +398,55 @@ window.allQuestions11 = [
       "watches / is watching"
     ],
     "corretta": 3
+  },
+{
+    "domanda": "She _______ French for five years, so she can speak it fluently now.",
+    "opzioni": [
+      "has been studying",
+      "is studying",
+      "has studied",
+      "has been studied"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "He _______ all the documents, so we can start the meeting now.",
+    "opzioni": [
+      "has printed",
+      "has print",
+      "printed",
+      "has been printing"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "They _______ that new Italian place twice already this month.",
+    "opzioni": [
+      "had tried",
+      "tried",
+      "are trying",
+      "have tried"
+    ],
+    "corretta": 3
+  },
+  {
+    "domanda": "Which sentence best illustrates the correct use of the Present Perfect to express a completed action with present relevance?",
+    "opzioni": [
+      "I have cleaned my room. You can see it’s tidy now.",
+      "I cleaned my room. You can see it’s tidy now.",
+      "I have been cleaned my room. You can see it’s tidy now.",
+      "I have been cleaning my room lately. It’s still messy."
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "Which sentence is correct?",
+    "opzioni": [
+      "They have been waiting for the bus since 8 AM.",
+      "They have waiting for the bus since 8 AM.",
+      "They has been waiting for the bus since 8 AM.",
+      "They have been waited for the bus since 8 AM."
+    ],
+    "corretta": 0
   }
 ];
