@@ -448,5 +448,55 @@ window.allQuestions11 = [
       "They have been waited for the bus since 8 AM."
     ],
     "corretta": 0
+  },
+{
+    "domanda": "While she _______ a book, her roommate _______ a movie.",
+    "opzioni": [
+      "read / watched",
+      "was reading / was watching",
+      "read / was watching",
+      "was reading / watched"
+    ],
+    "corretta": 1
+  },
+  {
+    "domanda": "Choose the sentence that correctly uses Past Continuous for two simultaneous past actions:",
+    "opzioni": [
+      "He cooked while she washed the car.",
+      "He was cooking while she washed the car.",
+      "He cooked while she was washing the car.",
+      "He was cooking while she was washing the car."
+    ],
+    "corretta": 3
+  },
+  {
+    "domanda": "At 8 PM last night, the children _______ video games in the living room.",
+    "opzioni": [
+      "played",
+      "were playing",
+      "had played",
+      "have been playing"
+    ],
+    "corretta": 1
+  },
+  {
+    "domanda": "Which sentence correctly uses the Past Continuous to describe an interrupted action?",
+    "opzioni": [
+      "She prepared dinner when the guests arrived.",
+      "She was prepare dinner when the guests arrived.",
+      "She was preparing dinner when the guests arrived.",
+      "She prepared dinner when the guests were arriving"
+    ],
+    "corretta": 2
+  },
+  {
+    "domanda": "They _______ soccer in the garden when it _______ to rain.",
+    "opzioni": [
+      "played / was starting",
+      "were playing / was starting",
+      "were playing / started",
+      "played / started"
+    ],
+    "corretta": 2
   }
 ];
