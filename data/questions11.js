@@ -498,5 +498,55 @@ window.allQuestions11 = [
       "played / started"
     ],
     "corretta": 2
+  },
+{
+    "domanda": "I’m sure she ___ the exam easily.",
+    "opzioni": [
+      "is going to pass",
+      "is passing",
+      "will pass",
+      "passes"
+    ],
+    "corretta": 2
+  },
+  {
+    "domanda": "Look at those clouds! It ___ soon.",
+    "opzioni": [
+      "rains",
+      "rained",
+      "is going to rain",
+      "will rain"
+    ],
+    "corretta": 2
+  },
+  {
+    "domanda": "By next month, I ___ on this project for over a year.",
+    "opzioni": [
+      "will be worked",
+      "will have been working",
+      "will work",
+      "am working"
+    ],
+    "corretta": 1
+  },
+  {
+    "domanda": "The train ___ at 7:15 tomorrow morning, so don’t be late.",
+    "opzioni": [
+      "departs",
+      "will depart",
+      "is departing",
+      "is going to depart"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "We ___ dinner with my parents tonight at 8.",
+    "opzioni": [
+      "will have",
+      "are having",
+      "have",
+      "are going to have"
+    ],
+    "corretta": 1
   }
 ];
