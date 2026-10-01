@@ -548,5 +548,55 @@ window.allQuestions11 = [
       "are going to have"
     ],
     "corretta": 1
+  },
+{
+    "domanda": "Which of the following sentences uses the modal verb “should” correctly?",
+    "opzioni": [
+      "They should arrived on time yesterday.",
+      "She should to study more for the exam.",
+      "He shoulds go to the doctor.",
+      "You should eat healthier food."
+    ],
+    "corretta": 3
+  },
+  {
+    "domanda": "You _____ leave your bag here; it’s not safe.",
+    "opzioni": [
+      "shouldn’t",
+      "may not",
+      "don’t have to",
+      "won’t"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "Which sentence indicates a deduction or strong probability using the modal verb “must”?",
+    "opzioni": [
+      "She must finish her homework now.",
+      "We mustn’t park here.",
+      "They must be tired after such a long trip.",
+      "He must call his mother."
+    ],
+    "corretta": 2
+  },
+  {
+    "domanda": "Which modal verb is used to express a polite request?",
+    "opzioni": [
+      "should",
+      "must",
+      "need",
+      "would"
+    ],
+    "corretta": 3
+  },
+  {
+    "domanda": "“Where’s Pete?” – “He ___ have gone to the grocery’s”.",
+    "opzioni": [
+      "should",
+      "might",
+      "would",
+      "will"
+    ],
+    "corretta": 1
   }
 ];
