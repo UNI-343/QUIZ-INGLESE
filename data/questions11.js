@@ -598,5 +598,55 @@ window.allQuestions11 = [
       "will"
     ],
     "corretta": 1
+  },
+{
+    "domanda": "If you _____ water to 100°C, it boils.",
+    "opzioni": [
+      "will heat",
+      "heat",
+      "would heat",
+      "heated"
+    ],
+    "corretta": 1
+  },
+  {
+    "domanda": "If it rains tomorrow, we _____ the picnic.",
+    "opzioni": [
+      "would cancel",
+      "will cancel",
+      "cancels",
+      "cancel"
+    ],
+    "corretta": 1
+  },
+  {
+    "domanda": "If I _____ a million dollars, I would travel the world.",
+    "opzioni": [
+      "had",
+      "have",
+      "will have",
+      "would have"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "If she had studied harder, she _____ the exam.",
+    "opzioni": [
+      "passes",
+      "would have passed",
+      "passed",
+      "would pass"
+    ],
+    "corretta": 1
+  },
+  {
+    "domanda": "If he had taken the medicine, he _____ better now.",
+    "opzioni": [
+      "would have felt",
+      "feels",
+      "felt",
+      "would feel"
+    ],
+    "corretta": 0
   }
 ];
