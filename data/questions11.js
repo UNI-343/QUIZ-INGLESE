@@ -648,5 +648,55 @@ window.allQuestions11 = [
       "would feel"
     ],
     "corretta": 0
+  },
+{
+    "domanda": "56. This suitcase is\n_____ than my backpack.",
+    "opzioni": [
+      "heavyer",
+      "more heavy",
+      "the heaviest",
+      "heavier"
+    ],
+    "corretta": 3
+  },
+  {
+    "domanda": "57. Mount Everest is\n_____ mountain in the world.",
+    "opzioni": [
+      "taller",
+      "the most tall",
+      "more tall",
+      "the tallest"
+    ],
+    "corretta": 3
+  },
+  {
+    "domanda": "58. My new job is\n_____ than my old one.",
+    "opzioni": [
+      "interestinger",
+      "interesting",
+      "more interesting",
+      "the most interesting"
+    ],
+    "corretta": 2
+  },
+  {
+    "domanda": "59. She is _____\nstudent in the class.",
+    "opzioni": [
+      "more intelligent than",
+      "the most intelligent",
+      "intelligenter",
+      "the more intelligent"
+    ],
+    "corretta": 1
+  },
+  {
+    "domanda": "60. This coffee\ntastes _____ than the one I had yesterday.",
+    "opzioni": [
+      "gooder",
+      "better",
+      "more good",
+      "best"
+    ],
+    "corretta": 1
   }
 ];
