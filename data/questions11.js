@@ -650,7 +650,7 @@ window.allQuestions11 = [
     "corretta": 0
   },
 {
-    "domanda": "56. This suitcase is\n_____ than my backpack.",
+    "domanda": "This suitcase is _____ than my backpack.",
     "opzioni": [
       "heavyer",
       "more heavy",
@@ -660,7 +660,7 @@ window.allQuestions11 = [
     "corretta": 3
   },
   {
-    "domanda": "57. Mount Everest is\n_____ mountain in the world.",
+    "domanda": "Mount Everest is _____ mountain in the world.",
     "opzioni": [
       "taller",
       "the most tall",
@@ -670,7 +670,7 @@ window.allQuestions11 = [
     "corretta": 3
   },
   {
-    "domanda": "58. My new job is\n_____ than my old one.",
+    "domanda": "My new job is _____ than my old one.",
     "opzioni": [
       "interestinger",
       "interesting",
@@ -680,7 +680,7 @@ window.allQuestions11 = [
     "corretta": 2
   },
   {
-    "domanda": "59. She is _____\nstudent in the class.",
+    "domanda": "She is _____ student in the class.",
     "opzioni": [
       "more intelligent than",
       "the most intelligent",
@@ -690,7 +690,7 @@ window.allQuestions11 = [
     "corretta": 1
   },
   {
-    "domanda": "60. This coffee\ntastes _____ than the one I had yesterday.",
+    "domanda": "This coffee tastes _____ than the one I had yesterday.",
     "opzioni": [
       "gooder",
       "better",
